@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KeepDIY/static/css/main.c822e66b.css",
+    "main.js": "/KeepDIY/static/js/main.09c43f64.js",
+    "index.html": "/KeepDIY/index.html",
+    "main.c822e66b.css.map": "/KeepDIY/static/css/main.c822e66b.css.map",
+    "main.09c43f64.js.map": "/KeepDIY/static/js/main.09c43f64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c822e66b.css",
+    "static/js/main.09c43f64.js"
+  ]
+}
