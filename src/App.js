@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+//import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
+import SetMapPage from './screens/app-map'
+import LiveMapPage from './screens/tracker'
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <HashRouter>
+    //   <Routes>
+    //     <Route path="/setlocation" element={<SetMapPage/>} />
+    //     <Route path="/tracker" element={<LiveMapPage/>} />
+    //     <Route path="/login" element={<LoginPage setPrivData={setPrivData} onLogin={handleLogin} />} />
+    //     <Route path="/verify" element={<VerifyPage />} />
+    //     <Route path="/home/*" element={goOnline ? <HomePage whoChat={whoChat} chatOpen={chatOpen} private_Date={private_Date} onLogout={handleLogout} /> : <Navigate to="/login" />} />
+    //     <Route path="/" element={<Navigate to="/login" />} />
+    //   </Routes>
+    // </HashRouter>
+
+<Router>
+  <Routes>
+    <Route path="/setlocation" element={<SetMapPage/>} />
+    <Route path="/tracker" element={<LiveMapPage/>} />
+    <Route path="/" element={<LiveMapPage/>} />
+  </Routes>
+</Router>
+
+
+
+
   );
 }
 
