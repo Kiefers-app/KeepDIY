@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KeepDIY/static/css/main.b0852c7b.css",
-    "main.js": "/KeepDIY/static/js/main.25c2d27f.js",
+    "main.js": "/KeepDIY/static/js/main.d00b2a00.js",
     "index.html": "/KeepDIY/index.html",
     "main.b0852c7b.css.map": "/KeepDIY/static/css/main.b0852c7b.css.map",
-    "main.25c2d27f.js.map": "/KeepDIY/static/js/main.25c2d27f.js.map"
+    "main.d00b2a00.js.map": "/KeepDIY/static/js/main.d00b2a00.js.map"
   },
   "entrypoints": [
     "static/css/main.b0852c7b.css",
-    "static/js/main.25c2d27f.js"
+    "static/js/main.d00b2a00.js"
   ]
 }
